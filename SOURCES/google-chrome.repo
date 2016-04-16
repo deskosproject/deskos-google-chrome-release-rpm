@@ -1,0 +1,7 @@
+[google-chrome]
+name=Google Chrome
+baseurl=http://dl.google.com/linux/chrome/rpm/stable/$basearch
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-google-chrome
+exclude=google-chrome-beta google-chrome-unstable
