@@ -1,6 +1,6 @@
 Name:           google-chrome-release
 Version:        1.0
-Release:        1
+Release:        1%{?dist}
 Summary:        Google Chrome repository configuration
 
 Group:          System Environment/Base
@@ -40,5 +40,5 @@ rm -rf $RPM_BUILD_ROOT
 %config(noreplace) /etc/yum.repos.d/google-chrome.repo
 
 %changelog
-* Fri Apr 15 2016 Ricardo Arguello <rarguello@deskosproject.org> 1.0-1
-- Initial package.
+* Fri Apr 15 2016 Ricardo Arguello <rarguello@deskosproject.org> - 1.0-1
+- Initial release
